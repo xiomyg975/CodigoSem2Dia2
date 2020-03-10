@@ -1,0 +1,39 @@
+*{
+    margin :0 ;
+    padding :0;
+    box-sizing:border-box;
+    /* border:1px solid gray; */
+}
+html,body{
+    height:100%;
+
+}
+.contenedor{
+    width : 600px;
+    height: 500px;
+    border-color:black;
+
+}
+.caja1{
+    width:700px;
+    height :100px;
+    padding: 2px;
+    background-color:pink;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.caja2{
+    width:200px;
+    height:300px;
+    background-color:purple;
+    margin-tsop: 20px;
+    margin-left: 20px;
+}
+.caja3{
+    width:200px;
+    height:100px;
+    background-color : orange;
+    margin-top: 20px;
+    margin-left: 20px;
+    display:flex;
+}

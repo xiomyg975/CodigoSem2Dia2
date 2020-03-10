@@ -1,0 +1,48 @@
+.contenedor{
+    width :900px;
+    height : 400px;
+    border:1px solid blue ;
+    padding :10px;
+    display:flex;
+    flex-direction: row;
+    /* space-betweeen
+    space -moz-background-clip: space-evenly
+    center;  */
+    /* alinear elemrnos de forma horizontal */
+    /* cuidado al aplicar eso y cambiar al flex direction */
+    justify-content:center;
+    align-items:center;
+    /* si se achica el tamaño en vez de mantener el tmañoo pedido    */
+    /* cuando tengan varias filar es mejor ultilizar align -center */
+    /* permite manejar si tengo varios elemtnos en un mismo contenedor para saber sie stos elementos mantendran sis proporciones poniendose enfilas debajo de los demas */
+    flex-wrap :wrap-reverse;
+
+    
+}
+.caja{
+    height : 100px;
+    width: 100px;
+    padding :20px;
+    box-sizing:border-box;
+    border:1px solid red;
+}
+.item1{
+    flex-basis:50px;
+    /* grow , me dira la relacion e crecieminto a comparacion de sus hermanos */
+    flex-grow:1;
+
+}
+.item2{
+    /* cambia de orden con el otro */
+    /* order :3 ; */
+    
+    flex-basis :100px;
+    flex-grow:2;
+}
+.item3{
+    flex-basis :70px;
+    flex-grow:1;
+    flex-shrink:3;
+    /* se alinea solo */
+    /* align-self:flex-end; */
+}
